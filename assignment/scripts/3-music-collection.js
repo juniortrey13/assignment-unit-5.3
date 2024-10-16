@@ -1,20 +1,6 @@
 console.log('***** Music Collection *****')
 // Safe Zone -- Write code below this line
 
-let albumOne = {
-  title: "Ctrl",
-  artist: "SZA",
-  yearPublished: 2017,
-}
-let albumTwo = {
-  title: "Bubba",
-  artist: "Kaytranada",
-  yearPublished: 2019,
-}
-
-function addToCollection( title, artist, yearPublished ) {
-  let myCollection = [];
-}
 
 
 
