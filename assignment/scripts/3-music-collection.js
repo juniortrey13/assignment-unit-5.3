@@ -31,6 +31,11 @@ console.log(addToCollection(myCollection, "Renaissance", "Beyonce", "2022" ));
 // Logging out the entire array
 console.log( "My entire collection:", myCollection);
 
+// looping through and displaying my entire collection
+function showCollection( collection ) { // Defining the function
+  for (let album of collection) { // Loop through the array using the for..of loop
+  }
+}
 
 
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
