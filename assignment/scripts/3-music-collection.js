@@ -1,6 +1,5 @@
 console.log('***** Music Collection *****')
 // Safe Zone -- Write code below this line
-let myCollection = [];
 
 let albumOne = {
   title: "Ctrl",
@@ -14,7 +13,7 @@ let albumTwo = {
 }
 
 function addToCollection( title, artist, yearPublished ) {
-
+  let myCollection = [];
 }
 
 
