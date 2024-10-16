@@ -8,7 +8,7 @@ function addToCollection ( collection, title, artist, year ) { // defined my fun
     artist: "artist",
     yearPublished: "yearPublished",
   };
-  
+  collection.push( newAlbum ); // add the new album to the end of the array
 }
 
 
