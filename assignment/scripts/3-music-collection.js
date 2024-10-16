@@ -15,9 +15,13 @@ let addedAlbum = addToCollection(myCollection, "Ctrl", "SZA", "2017" );
 console.log( addedAlbum ); // this will log the new added album
 console.log( myCollection ); // this will log out the entire collection of albums in my array
 
-
-
-
+// adding 6 new albums to the array 
+console.log(addToCollection(myCollection, "Bubba", "Kaytranada", "2019" ));
+console.log(addToCollection(myCollection, "Sin Miedo (del Amor y Otros Demonios", "Kali Uchis", "2020" ));
+console.log(addToCollection(myCollection, "M3LL155X", "FKA twigs", "2015" ));
+console.log(addToCollection(myCollection, "Blonde", "Frank Ocean", "2016" ));
+console.log(addToCollection(myCollection, "99.9%", "Kaytranada", "2016" ));
+console.log(addToCollection(myCollection, "Renaissance", "Beyonce", "2022" ));
 
 
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
