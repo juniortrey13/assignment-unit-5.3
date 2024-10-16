@@ -34,8 +34,10 @@ console.log( "My entire collection:", myCollection);
 // looping through and displaying my entire collection
 function showCollection( collection ) { // Defining the function
   for (let album of collection) { // Loop through the array using the for..of loop
+    console.log(album.title + "by" + album.artist + ", published in" + album.yearPublished ); // Logging each albums info using the + operator
   }
 }
+showCollection(myCollection); // displays my entire collection in the console
 
 
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
