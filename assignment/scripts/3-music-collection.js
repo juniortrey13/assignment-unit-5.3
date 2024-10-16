@@ -29,6 +29,9 @@ console.log(addToCollection(myCollection, "99.9%", "Kaytranada", "2016" ));
 // Album 7
 console.log(addToCollection(myCollection, "Renaissance", "Beyonce", "2022" ));
 // Logging out the entire array
+console.log( "My entire collection:", myCollection);
+
+
 
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
 // as a lil' chunk of friendly code that you don't need to understand right now.
