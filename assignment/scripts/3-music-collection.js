@@ -51,8 +51,8 @@ function findByArtist (collection, artist) { // defined my function
 }
 // Testing the findByArtist function
 console.log(findByArtist(myCollection, "Kim Petras")); // Should return empty because I don't have Kim Petras in there
-console.log(findByArtist(myCollection, "Kaytranada")); // There are two Kaytranada albums so let's see what it prints on the console
-console.log(findByArtist(myCollection,"SZA")); // There is one SZA album for sure in the array
+console.log(findByArtist(myCollection, "Kaytranada")); // There are two Kaytranada albums so both will be displayed
+console.log(findByArtist(myCollection,"SZA")); // There is one SZA album for sure in the array so one will be displayed
 
 
 
