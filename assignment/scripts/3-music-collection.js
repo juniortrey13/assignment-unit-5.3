@@ -3,7 +3,11 @@ console.log('***** Music Collection *****')
 
 let myCollection = []; // created an empty array
 function addToCollection ( collection, title, artist, year ) { // defined my function
-
+  let newAlbum = { // will create a new album in my array with these given properties
+    title: "title",
+    artist: "artist",
+    yearPublished: "yearPublished",
+  }
 }
 
 
