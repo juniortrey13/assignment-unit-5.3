@@ -42,7 +42,9 @@ showCollection(myCollection); // displays my entire collection in the console
 // looping to display and search specific artists
 function findByArtist (collection, artist) { // defined my function
   let result = []; // created the empty array for catalog albums found by aritst
-  
+  for (let album of collection) { // loop through the collection
+
+  }
 }
 
 
