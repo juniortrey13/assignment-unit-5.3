@@ -13,7 +13,7 @@ let albumTwo = {
   yearPublished: 2019,
 }
 
-function addToCollection( collection, title, artist, yearPublished ) {
+function addToCollection( title, artist, yearPublished ) {
 
 }
 
