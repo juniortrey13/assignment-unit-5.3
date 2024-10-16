@@ -16,13 +16,19 @@ console.log( addedAlbum ); // this will log the new added album
 console.log( myCollection ); // this will log out the entire collection of albums in my array
 
 // adding 6 new albums to the array 
+// Album 2
 console.log(addToCollection(myCollection, "Bubba", "Kaytranada", "2019" ));
+// Album 3
 console.log(addToCollection(myCollection, "Sin Miedo (del Amor y Otros Demonios", "Kali Uchis", "2020" ));
+// Album 4
 console.log(addToCollection(myCollection, "M3LL155X", "FKA twigs", "2015" ));
+// Album 5
 console.log(addToCollection(myCollection, "Blonde", "Frank Ocean", "2016" ));
+// Album 6
 console.log(addToCollection(myCollection, "99.9%", "Kaytranada", "2016" ));
+// Album 7
 console.log(addToCollection(myCollection, "Renaissance", "Beyonce", "2022" ));
-
+// Logging out the entire array
 
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
 // as a lil' chunk of friendly code that you don't need to understand right now.
