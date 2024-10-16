@@ -41,10 +41,13 @@ showCollection(myCollection); // displays my entire collection in the console
 
 // looping to display and search specific artists
 function findByArtist (collection, artist) { // defined my function
-  let result = []; // created the empty array for catalog albums found by aritst
+  let results = []; // created the empty array for catalog albums found by aritst
   for (let album of collection) { // loop through the collection
-
+    if(album.artist === artist) { // checks if the artists match
+      results.push(album); // if it is a match then it will put it in the results array
+    }
   }
+  return results; // returns the array if there are any matches or empty if none
 }
 
 
