@@ -49,7 +49,10 @@ function findByArtist (collection, artist) { // defined my function
   }
   return results; // returns the array if there are any matches or empty if none
 }
-
+// Testing the findByArtist function
+console.log(findByArtist(myCollection, "Kim Petras")); // Should return empty because I don't have Kim Petras in there
+console.log(findByArtist(myCollection, "Kaytranada")); // There are two Kaytranada albums so let's see what it prints on the console
+console.log(findByArtist(myCollection,"SZA")); // There is one SZA album for sure in the array
 
 
 
