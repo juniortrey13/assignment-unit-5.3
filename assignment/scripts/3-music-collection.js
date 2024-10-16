@@ -4,13 +4,16 @@ console.log('***** Music Collection *****')
 let myCollection = []; // created an empty array
 function addToCollection ( collection, title, artist, year ) { // defined my function
   let newAlbum = { // will create a new album in my array with these given properties
-    title: "title",
-    artist: "artist",
-    yearPublished: "yearPublished",
+    title: "Bubba",
+    artist: "SZA",
+    yearPublished: 2019,
   };
   collection.push( newAlbum ); // add the new album to the end of the array
+  return newAlbum; // returns the newly created object
 }
-
+let addedAlbum = addToCollection (myCollection, "Ctrl", "SZA", "2017" );
+console.log( addedAlbum ); // this will log the new added album
+console.log( myCollection ); // this will log out the entire collection of albums in my array
 
 
 
