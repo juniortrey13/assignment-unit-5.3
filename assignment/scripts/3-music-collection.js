@@ -7,7 +7,8 @@ function addToCollection ( collection, title, artist, year ) { // defined my fun
     title: "title",
     artist: "artist",
     yearPublished: "yearPublished",
-  }
+  };
+  
 }
 
 
