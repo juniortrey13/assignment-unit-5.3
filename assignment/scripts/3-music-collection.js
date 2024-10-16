@@ -39,6 +39,13 @@ function showCollection( collection ) { // Defining the function
 }
 showCollection(myCollection); // displays my entire collection in the console
 
+// looping to display and search specific artists
+function findByArtist (collection, artist) { // defined my function
+
+}
+
+
+
 
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
 // as a lil' chunk of friendly code that you don't need to understand right now.
